@@ -1,0 +1,30 @@
+{
+  "name": "@charging-tools/helpers",
+  "version": "0.1.0",
+  "description": "helpers for common actions",
+  "keywords": [
+    "helpers",
+    "common",
+    "shared"
+  ],
+  "author": "Andre Santos <afsantos@stone.com.br> (AB)",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/helpers.test.js"
+  },
+  "dependencies": {
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0"
+  }
+}
