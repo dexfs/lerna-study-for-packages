@@ -1,2 +1,6 @@
 node_modules/
 .nx/cache
+lerna-debug.log
+npm-debug.log
+packages/*/dist
+.idea
