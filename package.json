@@ -2,9 +2,12 @@
   "name": "charging-tools",
   "private": true,
   "scripts": {
+    "start": "lerna run start",
+    "dev": "lerna run dev",
     "build": "lerna run build",
     "canary": "lerna publish --canary",
-    "version": "lerna version"
+    "version": "lerna version",
+    "stable": "lerna publish"
   },
   "workspaces": [
     "packages/*"
