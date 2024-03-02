@@ -1,0 +1,31 @@
+{
+  "name": "@no_one_dev/domain",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "keywords": [
+    "domain"
+  ],
+  "author": "Andre Santos <afsantos@stone.com.br> (AB)",
+  "homepage": "https://github.com/dexfs/lerna-study-for-packages#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexfs/lerna-study-for-packages.git"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "rm -rf dist && tsc -p ./tsconfig.prod.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/dexfs/lerna-study-for-packages/issues"
+  }
+}
