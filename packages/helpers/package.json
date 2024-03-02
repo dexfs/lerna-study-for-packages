@@ -1,6 +1,6 @@
 {
-  "name": "@charging-tools/helpers",
-  "version": "0.1.1-alpha.13+a204f4c",
+  "name": "charging-tools-helpers",
+  "version": "0.1.1-alpha.14+9e4a5f1",
   "description": "helpers for common actions",
   "keywords": [
     "helpers",
@@ -33,7 +33,7 @@
     "@types/node": "^20.11.24",
     "jest-ts-webcompat-resolver": "^1.0.0"
   },
-  "gitHead": "a204f4cf5ebe84952a97a0d8bee1a240c08fab71",
+  "gitHead": "9e4a5f1b023e6dab685b37b2e74d20c85b27b3f3",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
