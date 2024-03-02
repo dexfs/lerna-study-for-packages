@@ -1,5 +1,5 @@
 {
-  "name": "@dexfs/lerna-study",
+  "name": "@no_one_dev/root",
   "private": false,
   "scripts": {
     "start": "lerna run start",
