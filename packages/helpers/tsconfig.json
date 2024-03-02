@@ -6,7 +6,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "baseUrl": "./src",
-    "outDir": "./../../dist/packages/helpers",
+    "outDir": "./../../dist/packages/common/helpers",
     "allowJs": true,
     "sourceMap": true,
     "esModuleInterop": true,
