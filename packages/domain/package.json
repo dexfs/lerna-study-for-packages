@@ -24,7 +24,7 @@
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "rm -rf dist && tsc -p ./tsconfig.prod.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --passWithNoTests --runInBand --coverage=false"
   },
   "bugs": {
     "url": "https://github.com/dexfs/lerna-study-for-packages/issues"

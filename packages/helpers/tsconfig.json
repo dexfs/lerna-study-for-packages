@@ -28,7 +28,7 @@
     "checkJs": true,
     "resolveJsonModule": true,
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": true
   },
   "include": ["./src/**/*"]
 }

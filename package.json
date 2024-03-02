@@ -8,6 +8,7 @@
     "canary": "lerna publish --canary",
     "version": "lerna version --conventional-commits",
     "stable": "lerna publish",
+    "test": "lerna run test",
     "full-stable": "npm run version -- --yes && npm run stable -- from-git --yes"
 
   },

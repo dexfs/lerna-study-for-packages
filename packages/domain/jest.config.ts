@@ -36,8 +36,7 @@ const config: Config = {
   preset: 'ts-jest/presets/js-with-ts-esm',
   testEnvironment: 'node',
   extensionsToTreatAsEsm: ['.ts'],
-  resolver: "jest-ts-webcompat-resolver",
-  // modulePaths: [compilerOptions.baseUrl]
+  resolver: 'jest-ts-webcompat-resolver'
 };
 
 export default config;
