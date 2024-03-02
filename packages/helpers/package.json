@@ -1,6 +1,6 @@
 {
   "name": "@charging-tools/helpers",
-  "version": "0.1.0",
+  "version": "0.1.1-alpha.8+fdc7255",
   "description": "helpers for common actions",
   "keywords": [
     "helpers",
@@ -31,5 +31,13 @@
     "@types/date-fns": "^2.6.0",
     "@types/node": "^20.11.24",
     "jest-ts-webcompat-resolver": "^1.0.0"
+  },
+  "gitHead": "fdc725501fc2fb567a9cfbc29468012237290dea",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dexfs/lerna-study-for-packages.git"
   }
 }

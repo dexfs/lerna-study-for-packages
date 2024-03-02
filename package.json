@@ -1,6 +1,6 @@
 {
   "name": "charging-tools",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "lerna run start",
     "dev": "lerna run dev",
