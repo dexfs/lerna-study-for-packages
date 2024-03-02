@@ -4,5 +4,10 @@
   "packages": [
     "packages/*"
   ],
-  "npmClient": "npm"
+  "npmClient": "npm",
+  "command": {
+    "version": {
+      "message": "chore(release): [skip ci] publish new version"
+    }
+  }
 }
