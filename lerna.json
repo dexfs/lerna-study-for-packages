@@ -1,4 +1,11 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "independent"
+  "version": "independent",
+
+  "command": {
+    "publish": {
+      "scope": "@no_one_dev",
+      "directory": "{workspaceRoot}/dist/{projectRoot}"
+    }
+  }
 }
