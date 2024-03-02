@@ -1,5 +1,5 @@
 {
-  "name": "charging-tools",
+  "name": "@dexfs/lerna-study",
   "private": false,
   "scripts": {
     "start": "lerna run start",
