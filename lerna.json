@@ -4,10 +4,5 @@
   "packages": [
     "packages/*"
   ],
-  "npmClient": "npm",
-  "command": {
-    "publish": {
-      "directory": "{workspaceRoot}/dist/packages/common"
-    }
-  }
+  "npmClient": "npm"
 }
