@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.2](https://github.com/dexfs/lerna-study-for-packages/compare/@no_one_dev/common-helpers@0.5.1...@no_one_dev/common-helpers@0.5.2) (2024-03-02)
+
+
+### Bug Fixes
+
+* packages ([5f084fb](https://github.com/dexfs/lerna-study-for-packages/commit/5f084fbd7ab7c59fc9687050479da64aefd05d2a))
+
+
+
+
+
 # 0.5.0-alpha.0 (2024-03-02)
 
 
