@@ -6,6 +6,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "baseUrl": "./src",
+    "outDir": "./dist",
     "allowJs": true,
     "sourceMap": true,
     "esModuleInterop": true,

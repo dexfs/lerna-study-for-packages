@@ -12,19 +12,24 @@
   "license": "ISC",
   "main": "dist/index.js",
   "directories": {
-    "src": "src",
+    "lib": "src",
     "test": "__tests__"
   },
   "files": [
-    "src"
+    "/dist"
   ],
   "scripts": {
-    "test": "node ./__tests__/helpers.test.js"
+    "dev": "tsx src/index.ts",
+    "build": "rm -rf dist && tsc -p ./tsconfig.prod.json",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --passWithNoTests --runInBand --coverage=false",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --passWithNoTests --runInBand"
   },
   "dependencies": {
     "date-fns": "^3.3.1"
   },
   "devDependencies": {
-    "@types/date-fns": "^2.6.0"
+    "@types/date-fns": "^2.6.0",
+    "@types/node": "^20.11.24",
+    "jest-ts-webcompat-resolver": "^1.0.0"
   }
 }
