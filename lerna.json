@@ -7,7 +7,7 @@
   "npmClient": "npm",
   "command": {
     "publish": {
-      "directory": "{workspaceRoot}/dist/common"
+      "directory": "{workspaceRoot}/dist/packages/common"
     }
   }
 }
