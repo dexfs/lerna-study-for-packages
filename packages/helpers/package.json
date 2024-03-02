@@ -1,5 +1,5 @@
 {
-  "name": "@dexfs/charging-tools-helpers",
+  "name": "@charging/tools-helpers",
   "version": "0.4.0",
   "description": "helpers for common actions",
   "keywords": [
@@ -17,8 +17,6 @@
     "test": "__tests__"
   },
   "files": [
-    "tsconfig.json",
-    "tsconfig.prod.json",
     "/dist"
   ],
   "scripts": {
@@ -38,7 +36,7 @@
   "gitHead": "535b4f139551842dd0f17e6c21cf931b3de0989a",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": "https://github.com/dexfs/lerna-study-for-packages.git"
 }

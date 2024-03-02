@@ -29,14 +29,6 @@
     "resolveJsonModule": true,
     "declaration": true,
     "declarationMap": true,
-    "paths": {
-      "@charging-tools/helpers": [
-        "./helpers/src"
-      ],
-      "@charging-tools/helpers/*": [
-        "./helpers/src/*"
-      ],
-    }
   },
   "include": ["./src/**/*"]
 }
