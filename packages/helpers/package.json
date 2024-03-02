@@ -37,6 +37,7 @@
   },
   "gitHead": "535b4f139551842dd0f17e6c21cf931b3de0989a",
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": "https://github.com/dexfs/lerna-study-for-packages.git"
