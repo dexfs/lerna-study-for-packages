@@ -7,9 +7,9 @@
     "common",
     "shared"
   ],
-  "author": "Andre Santos <afsantos@stone.com.br> (AB)",
+  "author": "Andre Santos <andre@dexdev.com.br>",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "dist/index.js",
   "directories": {
     "lib": "src",
