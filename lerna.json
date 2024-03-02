@@ -4,7 +4,7 @@
 
   "command": {
     "publish": {
-      "scope": "@no_one_dev",
+      "scope": "@no_one_dev/common",
       "directory": "{workspaceRoot}/dist/{projectRoot}"
     }
   }
