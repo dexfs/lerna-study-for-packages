@@ -1,8 +1,10 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
-  "scope": "@no_one_dev/common",
-
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "npm",
   "command": {
     "publish": {
       "directory": "{workspaceRoot}/dist/{projectRoot}"
