@@ -8,6 +8,7 @@
     "shared"
   ],
   "author": "Andre Santos <andre@dexdev.com.br>",
+  "ower": "dexfs",
   "homepage": "",
   "license": "MIT",
   "main": "dist/index.js",
