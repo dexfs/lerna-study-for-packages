@@ -1,6 +1,6 @@
 {
   "name": "@no_one_dev/common-helpers",
-  "version": "0.4.0",
+  "version": "0.4.1-alpha.34+6823faa",
   "description": "helpers for common actions",
   "keywords": [
     "helpers",
@@ -33,7 +33,7 @@
     "@types/node": "^20.11.24",
     "jest-ts-webcompat-resolver": "^1.0.0"
   },
-  "gitHead": "535b4f139551842dd0f17e6c21cf931b3de0989a",
+  "gitHead": "6823faae67054e22b2000c48c17fcb9fb614118b",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
