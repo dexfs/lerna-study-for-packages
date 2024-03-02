@@ -30,5 +30,5 @@
     "declaration": true,
     "declarationMap": true,
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "package.json"]
 }
